@@ -138,50 +138,50 @@ if __name__ == '__main__':
     # BPM MOD TWO SIX
     # Ordered by scale (12 major chords)
 
-    # C
+    # C / 120 BPM (P=16)
     morse = text_to_morse("It is Wednesday my dudes.")
     write_midi_file(morse, "bit.mid", 60)  # B
 
-    # C#
+    # C# / 113 BPM (I=9)
     morse = text_to_morse("There is no war in Ba Sing Se.")
     write_midi_file(morse, "warp.mid", 61)  # P
 
-    # D
+    # D / 128 BPM (X=24)
     morse = text_to_morse("According to all known laws of aviation, there is no way a bee should be able to fly.")
     write_midi_file(morse, "mall.mid", 62)  # M
 
-    # D#
+    # D# / 105 BPM (A=1)
     morse = text_to_morse("Ight imma head out.")
     write_midi_file(morse, "might.mid", 63)  # M
 
-    # E
+    # E / 122 BPM (R=18)
     morse = text_to_morse("Shut up and take my money!")
     write_midi_file(morse, "shout.mid", 64)  # O
 
-    # F
+    # F / 110 BPM (F=6)
     morse = text_to_morse("It's over, Anakin. I have the high ground.")
     write_midi_file(morse, "dover.mid", 65)  # D
 
-    # F#
+    # F# / 131 BPM (A=1)
     morse = text_to_morse("Somebody once told me the world is gonna roll me, I ain't the sharpest tool in the shed.")
     write_midi_file(morse, "troll.mid", 66)  # T
 
-    # G
+    # G / 123 BPM (S=19)
     morse = text_to_morse("We're no strangers to love. You know the rules, and so do I.")
     write_midi_file(morse, "now.mid", 67)  # W
 
-    # G#
+    # G# / 124 BPM (T=20)
     morse = text_to_morse("Did you put your name in the goblet of fire? Dumbledore asked calmly.")
     write_midi_file(morse, "pout.mid", 68)  # O
 
-    # A
+    # A / 115 BPM (K=11)
     morse = text_to_morse("Cash me ousside, how bow dah.")
     write_midi_file(morse, "dash.mid", 69)  # S
 
-    # A#
+    # A# / 113 BPM (I=9)
     morse = text_to_morse("Give your meat a good ol' rub.")
     write_midi_file(morse, "oil.mid", 70)  # I
 
-    # B
+    # B / 108 BPM (D=4)
     morse = text_to_morse("Omae wa mou shindeiru.")
     write_midi_file(morse, "wax.mid", 71)  # X
