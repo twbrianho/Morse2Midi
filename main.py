@@ -131,7 +131,7 @@ def write_midi_file(morse: List[MorseCode], filename: str, note: int) -> None:
             case _:
                 print(f'Unknown morse code: {code}')
 
-    file.save(filename)
+    file.save("tracks/" + filename)
 
 
 if __name__ == '__main__':
