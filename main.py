@@ -51,8 +51,8 @@ if __name__ == '__main__':
     1. Identify and convert morse to text for each track. Each one is a meme.
     2. Order tracks by note (C, C#, D, D#, E, F, F#, G, G#, A, A#, B). Exactly 12 tracks = 12 notes in an octave.
     3. Find extra letter in each track title by comparing to one of the words in morse -> "BPM MOD TWO SIX".
-    4. Get the BPM for each track (using an app / website), then mod by 26 to get the letter -> "PIXAR FAST KID".
-    5. Answer is "DASH"... thematic to morse code!
+    4. Get the BPM for each track (e.g. using an app / website), then mod by 26 to get the letter -> "PIXAR FAST KID".
+    5. Answer is "DASH" — which is thematic to morse code!
     """
 
     for file_config in FILE_CONFIGS:
